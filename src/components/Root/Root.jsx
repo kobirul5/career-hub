@@ -5,10 +5,8 @@ import Home from "../Home/Home";
 const Root = () => {
     return (
         <div>
-            <section className="bg-[#9873ff11] p-0">
             <Header></Header>
             <Outlet></Outlet>
-            </section>
         </div>
     );
 };

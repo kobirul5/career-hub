@@ -1,12 +1,16 @@
 import Banner from "../Banner/Banner";
+import Category from "../Category/Category";
 
 
 const Home = () => {
     return (
-        <div className="container mx-auto px-5">
-            <Banner></Banner>
+        <div>
+            <div className="bg-[#9873ff11]">
+                <Banner></Banner>
+            </div>
+                <Category></Category>
         </div>
-    );
+        );
 };
 
 export default Home;
