@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
     const links = <>
-        <li><NavLink >Statistics</NavLink></li>
-        <li><a href="">Applied Jobs</a></li>
-        <li><a href="">Blog</a></li>
+        <li><NavLink to="/" >Statistics</NavLink></li>
+        <li><NavLink to="/appliedJob" >Applied Jobs</NavLink></li>
+        <li><NavLink to="/blog">Blog</NavLink></li>
     </>
     return (
         <div className="navbar">
